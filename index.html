@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ulaps Event Management System</title>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+<body>
+    <!-- navbar start-->
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html"><img src="img/ulapslogo.png" alt="Logo" title="Welcome Pogi"></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav d-flex bd-highlight mr-auto">
+                <li class="nav-item"><a class="nav-link"href="index.html">home</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="meetings.html">Meetings</a>
+                    <a class="dropdown-item" href="presentation.html">Presentations</a>
+                    <a class="dropdown-item" href="training.html">Trainings</a>
+                    <a class="dropdown-item" href="playgrounds.html">Playgrounds</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link"href="features.html">Features</a></li>
+
+                <li class="nav-item"><a class="nav-link"href="about.html">About</a></li>
+
+                <li class="nav-item"><a class="nav-link"href="contacts.html">Contacts</a></li>
+            </ul>
+            <div class="">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Events Here!" aria-label="Search">
+                    <button class="btn btn-outline-success bg-dark" type="submit">Search</button>
+                </form>
+             </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Home Start -->
+
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="2000"> 
+            <div class="carousel-inner">
+
+                 <div class="carousel-item active"> 
+                    <img class="d-block w-100" src="img/event1.jpg" alt="event"> 
+                    <div class="carousel-caption">
+                        <h1>Ulaps Event Management System</h1>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-8 bg-custom">
+                                   <h1>Events</h1>
+                                    <div class="border-top border-primary w-100"></div>
+                                    <br> <br>
+                                        <h3>Where all our events will be going...</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="carousel-item"> 
+                    <img class="d-block w-100" src="img/meetings.jpg" alt="event"> 
+                <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-8 carLink bg-custom">
+                                   <h1>Meetings</h1>
+                                    <div class="border-top border-primary w-100"></div>
+                                    <br> <br>
+                                        <h3>Where all our events will be going...</h3>
+                                         <button type="button" class="btn btn-primary text-light"><a href="meetings.html">Proceed</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="carousel-item"> 
+                    <img class="d-block w-100" src="img/presentations.jpg" alt="event">
+                     <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-8 carLink bg-custom">
+                                   <h1>Presentations</h1>
+                                    <div class="border-top border-primary w-100"></div>
+                                    <br> <br>
+                                        <h3>Where all our events will be going...</h3>
+                                         <button type="button" class="btn btn-primary"><a href="presentation.html">Proceed</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                
+
+                 <div class="carousel-item"> 
+                    <img class="d-block w-100" src="img/training.jpg" alt="event">
+                     <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-8 carLink bg-custom">
+                                   <h1>Trainings</h1>
+                                    <div class="border-top border-primary w-100"></div>
+                                    <br> <br>
+                                        <h3>Where all our events will be going...</h3>
+                                         <button type="button" class="btn btn-primary text-light"><a href="training.html">Proceed</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                 <div class="carousel-item"> 
+                    <img class="d-block w-100" src="img/astrobot.jpg" alt="event"> 
+                <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-8 carLink bg-custom">
+                                   <h1>Playgrounds</h1>
+                                    <div class="border-top border-primary w-100"></div>
+                                    <br> <br>
+                                        <h3>Activities Regarding playgrounds Time will be placed here (Images and Records)</h3>
+                                         <button type="button" class="btn btn-primary"><a href="playgrounds.html">Proceed</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- END CAROUSEL -->
+
+        <!-- NEXT AND PREV HOME -->
+
+        <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="fas fa-angle-left fa-2x"></span>
+        </a>
+
+         <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="fas fa-angle-right fa-2x"></span>
+        </a>
+
+        <!-- END -->
+
+         <!-- Home End -->
+
+        <!-- Features Section -->
+        <div class="overallFeatures">
+            <div class="col-12 text-center">
+                <h1 class="text-dark pt-4">Some of the Features</h1>
+                <div class="border-top border-primary w-25 mx-auto my-3"></div>
+                <p>See different status and data's for your reference.</p>
+            </div>
+
+          <div class="container featuresContainer">
+                <div class="row my-5">
+
+                    <div class="col-md-3 featMod my-4 text-center">
+                        <h4 class="my-4">Meetings Tab</h4>
+                            <img src="img/meetingcol1.png" alt="meet" class="wd-100">
+                            <p>All Pre-recorded meeting and announcement <br>will be placed in this tab according to date.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">See Sample</button>
+                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="img/carousel/2.png" class="img-responsive w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 featMod my-4 text-center">
+                        <h4 class="my-4">Trainings Tab</h4>
+                        <img src="img/trainingcol2.png" alt="meet" class="wd-100">
+                        <p>All Training details and summary <br>will be placed in this tab according to employee.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">See Sample</button>
+                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="img/carousel/2.png" class="img-responsive w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 featMod my-4 text-center">
+                        <h4 class="my-4">Presentations Tab</h4>
+                        <img src="img/presentationcol3.jpg" alt="meet" class="wd-100">
+                        <p>All Pre-recorded Presentations <br>will be placed in this tab according to date.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">See Sample</button>
+                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="img/carousel/2.png" class="img-responsive w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-md-3 featMod my-4 text-center">
+                        <h4 class="my-4">Playgrounds Tab</h4>
+                            <img src="img/ps4.jpg" alt="meet" class="wd-100">
+                            <p>All Pre-recorded meeting and announcement <br>will be placed in this tab according to date.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">See Sample</button>
+                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="img/carousel/2.png" class="img-responsive w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                </div>
+        
+            </div>
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h1>You can see your progress real-time!</h1>
+                </div>
+            </div>
+                
+        </div>
+        <!-- Features Section -->
+
+        <!-- Fixed Background -->
+
+        <div class="fixed-background">
+
+
+            <div class="row text-light py-5">
+                <div class="col-12 fixedBackText text-center">
+                    <h1 class="fas fa-cloud">U- L-earn A-pply P-ort and S-hare</h1> <br>
+                    <img src="img/ulapslogo.png" alt="ulaps" title="choose greatness"> <br>
+                    
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fas fa-mouse"></i></button>
+                     <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="..img/playgrounds.jpg" class="img-responsive w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+
+            <div class="fixed-wrap">
+                <div class="fixed"></div>
+            </div>
+        </div>
+
+        <!-- Fixed Background -->
+
+        <!-- About Section Section -->
+        <div class="container-fluid sectionContainer text-light">
+            <div class="row text-dark py5">
+                <div class="col-12 contactsTitle text-center">
+                    <h1>What is this all ABOUT</h1>
+                </div>
+
+
+                <div class="col-3 text-center">
+                    <i class="fas fa-history fa-5x"></i>
+                    <h5>BACK TRACK</h5> <br>
+                    <p>Monitoring of previous <br> activities and discussions.</p>
+                </div>
+
+                <div class="col-3 text-center">
+                     <i class="fas fa-sd-card fa-5x"></i>
+                    <h5>MEMORIES</h5> <br>
+                    <p>Shared memories together <br> to remember.</p>
+                </div>
+
+                <div class="col-3 text-center">
+                     <i class="fas fa-chart-line fa-5x"></i>
+                    <h5>PROGRESS TRACK</h5> <br>
+                    <p>To see your current progress <br> as a programmer.</p>
+                </div>
+
+                <div class="col-3 text-center">
+                     <i class="fas fa-play-circle fa-5x"></i>
+                    <h5>FUTURE REFERENCE</h5> <br>
+                    <p>To look back for previous training <br> to have some reference.</p>
+                </div>
+
+                <div class="col-12 langUse text-center">
+                    <h3>THIS WEBSITE IS CREATED THROUGH</h3>
+                </div>
+
+                <div class="col-4 langUage text-center">
+                    <i class="fab fa-html5 fa-5x"></i>
+                    <h5>HTML 5</h5>
+                </div>
+
+                <div class="col-4 langUage text-center">
+                    <i class="fab fa-css3-alt fa-5x"></i>
+                    <h5>CSS 3</h5>
+                </div>
+
+
+                <div class="col-4 langUage text-center">
+                    <i class="fab fa-bootstrap fa-5x"></i>
+                    <h5>BOOTSTRAP 4</h5>
+                </div>
+                
+
+            </div>
+        </div>
+        <!-- About Section -->
+
+        <!-- Contacts Section -->
+
+        <div class="container-fluid contactsBG text-light">
+            <div class="row"></div>
+            <div class="col-12 text-left ">
+                <h1>CONTACTS US!</h1>
+            </div>
+        </div>
+
+        <div class="row contactsRow">
+            <div class="col-md-6 h4Mod text-center text-dark">
+                <h4>Do you have some concerns or suggestions?</h4>
+                <h4>Feel Free to share your ideas!</h4>
+                <textarea name="message" style="width:600px; height:200px;" placeholder="Please type your comments/suggestions here...">
+                </textarea>
+                <br>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+
+            <div class="col-md-6 text-center text-dark">
+                <h4>Get in touch with Us!</h4>
+                <form>
+                    <div class="form-row formControl">
+
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="E-mail">
+                        </div>
+                    </div>
+
+                    <textarea name="message" style="width:730px; height:200px;" placeholder="Please type your message...">
+                </textarea>
+                 <button type="button" class="btn btn-primary">Submit</button>
+
+                </form>
+
+
+
+            </div>
+        </div>
+
+
+        <!-- Contacts Sections -->
+
+        <!-- Footer -->
+
+        <div class="container-fluid footContainer">
+            <div class="row">
+
+                <div class="col-md-3 footLogo text-light text-center">
+                    <img src="img/ulapslogo.png" alt="">
+                    <div class="col">
+                        <h5>ULAPS GmbH</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-light text-center">
+                    <h5> <i class="fas fa-compass"></i> Location:</h5>
+                    <p>Santiago City,<br>Isabela, Philippines</p>
+                </div>
+
+                <div class="col-md-3 footSocial text-light text-center">
+                    <h5>Follow us:</h5> <br>
+                        <a href=""><i class="fab fa-facebook fa-3x"></i></a> &nbsp; &nbsp; &nbsp; <a href=""><i class="fab fa-linkedin fa-3x"></i></a> &nbsp; &nbsp; &nbsp; <a href=""><i class="fab fa-youtube fa-3x"></i></a>
+                </div>
+
+                <div class="col-md-3 text-light text-center">
+                    <h5>Resources:</h5>
+                    <div class="row">
+                        <div class="col">
+                            W3 Schools
+                            <br>
+                            GetBootstrap
+                            <br>
+                            Google
+                        </div>
+
+                        <div class="col">
+                            GitHub
+                            <br>
+                            VS Code
+                            <br>
+                            Youtube
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+
+   
+    <!-- Bootstrap JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>
